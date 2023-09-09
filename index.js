@@ -20,7 +20,7 @@ app.get('/info', (req, res) => {
   const current_day = currentDay
   const track = req.query.track
   const utcTime = currentUTC
-  const github_file_url = 'https://github.com/bintus-ux/stage-one-main-source'
+  const github_file_url = 'https://github.com/bintus-ux/stage-one-index-repo'
   const github_repo_url =
     'https://github.com/bintus-ux/stage-one-general-source'
   const status_code = 200
